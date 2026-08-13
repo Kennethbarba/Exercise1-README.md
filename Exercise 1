@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jhon Kenneth A Barba - Profile</title>
 
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        background: linear-gradient(135deg, #007BFF, #00d2ff);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        min-height:100vh;
+        padding:20px;
+    }
+
+    .card{
+        width:100%;
+        max-width:380px;
+        background:white;
+        border-radius:12px;
+        box-shadow:0 8px 20px rgba(0,0,0,.15);
+        padding:30px 20px;
+        text-align:center;
+    }
+
+    .profile-img{
+        width:120px;
+        height:120px;
+        border-radius:50%;
+        object-fit:cover;
+        background:#ddd;
+        margin-bottom:15px;
+        border:4px solid #007BFF;
+    }
+
+    h2{
+        color:#333;
+        font-size:22px;
+        margin-bottom:5px;
+    }
+
+    h4{
+        color:#007BFF;
+        font-size:14px;
+        font-weight:600;
+        margin-bottom:20px;
+    }
+
+    .info{
+        text-align:left;
+        border-top:1px solid #eee;
+        padding-top:15px;
+    }
+
+    .info p{
+        margin:10px 0;
+        color:#555;
+        font-size:14px;
+        word-break: break-all;
+    }
+
+    .info strong{
+        color:#333;
+    }
+
+    a{
+        color:#007BFF;
+        text-decoration:none;
+    }
+
+    a:hover{
+        text-decoration:underline;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+    <img src="Kenneth.jfif" alt="Jhon Kenneth A Barba" class="profile-img">
+    <h2>Jhon Kenneth A Barba</h2>
+    <h4>BS Information Technology Student</h4>
+
+    <div class="info">
+        <p><strong>Role:</strong> Researcher</p>
+        <p><strong>Age:</strong> 23</p>      
+        <p><strong>GitHub:</strong> 
+            <a href="https://github.com/Kennethbarba/Exercise1-README.md/commits?author=Kennethbarba" target="_blank">
+                Kennethbarba Profile
+            </a>
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
